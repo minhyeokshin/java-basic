@@ -12,7 +12,6 @@
 4. 객체지향 프로그램에서 클래스 안에서 특정 기능(동작)을 처리는 하는 함수를 무엇이라고 하는가?
   => 메서드
 5. JavaSe 프로그램에서 프로그램의 진입 점(시작 점)이며 가장 먼저 실행되는 메서드의 이름을 쓰시오?
-  =>   public class Hello {
-             public static void main(String[] args) {
+  =>   main
 6. JVM(Java Virtual Machine)이란 무엇인가?
-  => 자바를 실행하는 프로그램? .exe? OS상관없이 JAVA 실행이 가능하게함
+  => 자바를 실행하는 프로그램? OS상관없이 JAVA 실행이 가능하게함
