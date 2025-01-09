@@ -11,3 +11,8 @@ SportCar
           value 변수에 10을 할당
           value 변수에 사용자에게 숫자를 입력받아 해당 숫자를 더한 후 result 변수에 저장
           result 출력
+
+    문제3) FourArithemetic, Operator 클래스의
+          기능을 같은 이름의 메소드로 분리하고
+          Scanner 클래스를 이용하여
+          두 정수를 입력받는 기능으르
