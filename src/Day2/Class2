@@ -1,0 +1,13 @@
+Veriable, Method 선언할때
+camel Style을 적용하여 명명하는 것을 권장
+socre
+mateScore
+SportCar
+
+클래스명, 소스파일 이름을 지정할때는
+    - Week.java, Member,java, ProductKind.java
+
+    문제2) 정수형 변수 value를 선언
+          value 변수에 10을 할당
+          value 변수에 사용자에게 숫자를 입력받아 해당 숫자를 더한 후 result 변수에 저장
+          result 출력
