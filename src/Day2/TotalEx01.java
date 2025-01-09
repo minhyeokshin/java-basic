@@ -14,6 +14,7 @@ public class TotalEx01 {
         System.out.println("두번째 숫자를 입력해주세요");
         int b = input.nextInt();
         int result = a + b;
+        System.out.println("두수의 합은" + result);
 
     }
     //operator 기능 메서드
@@ -29,12 +30,12 @@ public class TotalEx01 {
         avg = total / 2;
 
         System.out.printf("총점:%d%n",total);
-        System.out.printf("평균:%.1f",avg);
+        System.out.printf("평균:%.1f",avg); // 소수점 3번째 자리에서 반올림해서 출력
     }
 
     //실행 메서드
     public static void main(String[] args) {
-       // fourArtimetic();
-        operator();
+        fourArtimetic();
+        // operator();
     }
 }
