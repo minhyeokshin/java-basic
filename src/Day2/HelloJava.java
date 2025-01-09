@@ -18,6 +18,14 @@ public class HelloJava {
          */
         String name = input.nextLine();
 
-        System.out.println("Hello " + name);
+        System.out.println("당신의 이름은 " + name);
+        callName();
+        callName();
+        callName();
+        callName();
+    }
+
+    public static void callName(){
+        System.out.println("내이름을 불러줘");
     }
 }
