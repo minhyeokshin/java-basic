@@ -13,6 +13,16 @@ public class BooleanEx {
             System.out.println("계속진행하세요");
         }
 
-        while(true){}
+        //while(true){}
+
+        int bool = 21;
+        boolean result = (bool == 20); // 변수 bool의 값이 20인가요?
+        System.out.println(result);
+
+        result = (0 < bool && bool < 20); // 변수 bool이 0보다 크고 20보다 작은가요? and
+        System.out.println(result);
+
+        result = (0 < bool || bool > 20);// || = or
+        System.out.println(result);
     }
 }
