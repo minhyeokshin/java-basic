@@ -10,6 +10,7 @@ public class HelloJava {
     public static void main(String[] args) {
 
         System.out.println("Hello Java"); // Hello Java = Parameter
+        callName();
         System.out.println("당신의 이름을 입력해 주세요.");
         Scanner input = new Scanner(System.in);
         /*Scanner Class는 Command+Enter로 입력
@@ -23,9 +24,24 @@ public class HelloJava {
         callName();
         callName();
         callName();
-    }
+        String eat = callStringName();
+        System.out.println(eat);
+        eat = eat + "맛있다. 냠냠";
 
-    public static void callName(){
-        System.out.println("내이름을 불러줘");
+        callStringParam(eat);
+
     }
-}
+        public static void callName () {
+            System.out.println("내이름을 불러줘");
+        }
+
+        public static String callStringName () {
+
+            String name = "라면";
+            return name;
+        }
+
+        public static void callStringParam (String eat){
+            System.out.println(eat + "callString Param 처리완료");
+        }
+    }
