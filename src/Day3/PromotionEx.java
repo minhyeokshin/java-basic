@@ -18,5 +18,9 @@ public class PromotionEx {
         double doubleValue = floatValue;
         System.out.println(floatValue);
         System.out.println(doubleValue);
+
+        int intValue2 = 500;
+        byte byteValue2 = (byte) intValue2;
+        System.out.println(byteValue2);
     }
 }
