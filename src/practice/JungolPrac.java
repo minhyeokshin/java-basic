@@ -10,11 +10,18 @@ public class JungolPrac {
         BufferedReader br =
         new BufferedReader(new InputStreamReader(System.in))   ;
 
-        System.out.println("당신의 나이는 몇살입니까?");
+        System.out.println("두 개의 실수를 입력하시오.");
+        String str1 = br.readLine();
+        double num1 = Double.parseDouble(str1);
 
-        String str = br.readLine();
-        int num = Integer.parseInt(str);
+        String str2 = br.readLine();
+        double num2 = Double.parseDouble(str2);
 
-        System.out.printf("당신의 나이는 %d살이군요.",num);
+        String str3 = br.readLine();
+        double num3 = Double.parseDouble(str3);
+
+        System.out.printf("%.3f%n",num1);
+        System.out.printf("%.3f%n",num2);
+        System.out.printf("%.3f%n",num3);
     }
 }
