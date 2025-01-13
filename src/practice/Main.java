@@ -1,12 +1,20 @@
-package practice;
 
 public class Main {
     public static void main(String[] args) {
 
-        double yd = 91.44;
-        double in = 2.54;
+        int a = 10;
+        int b = 10;
 
-        System.out.printf("2.1yd = %.1fcm",2.1*yd);
-        System.out.printf("10.5in = %.1fcm",10.5*in);
+        System.out.printf("최초값 a = %d, b = %d%n%n",a,b);
+
+        ++b;
+        System.out.printf("a++ = %d, ++b = 11%n",a,b);
+        a++;
+        System.out.printf("실행후 a = %d, b = %d%n%n ",a,b);
+
+        --b;
+        System.out.printf("a-- = %d, --b = %d%n",a,b);
+        a--;
+        System.out.printf("실행후 a = %d, b = %d",a,b);
     }
 }
