@@ -28,8 +28,6 @@ import java.io.InputStreamReader;
             } else {
                 System.out.printf("0 ");
             }
-            {
-            }
 
         }
     }
