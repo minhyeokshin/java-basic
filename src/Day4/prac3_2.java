@@ -22,10 +22,8 @@ public class prac3_2 {
         String str = br.readLine(); // 입력
         int num = Integer.parseInt(str); // 정수 변환
 
-        System.out.println(num); // num 출력
 
-        num++; // num + 1
-        num++; // num + 1 + 1
-        System.out.println(num);
+        System.out.println(num++); // num 출력
+        System.out.println(++num);
     }
 }
