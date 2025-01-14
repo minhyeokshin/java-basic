@@ -12,7 +12,8 @@ public class Exercise3_8 {
 
 
         float f= 3 / 2f;
-        long l = 3000 * 3000 * 3000;
+        long l = 3000*3000;
+        l *= 3000;
 
         float f2 = 0.1f;
         double d = 0.1;
