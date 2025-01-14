@@ -19,5 +19,26 @@ public class prac444 {
             }
             System.out.println();
         }
+        int i = 0;
+        do{
+            System.out.println("Hello World");
+            i++;
+        }
+
+        while(i<6);
+
+
+        String str2 = br.readLine();
+        int x = Integer.parseInt(str2);
+
+        int sum = 0;
+
+        do {
+
+            sum += x;
+            x--;
+        }
+        while (x>=10);
+        System.out.println("합계 : " + sum);
     }
 }
