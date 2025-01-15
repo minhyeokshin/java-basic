@@ -33,6 +33,12 @@ public class RandomEx {
         // 10~20 사이의 값
         int num4 = (int) (Math.random() * 10) + 10;
 
-        System.out.printf("%d %d %d %d",num1,num2,num3,num4);
+        // 1~45 난수 생성하는식
+        int num5 = (int) (Math.random() * 45) + 1;
+
+        // 60~-45 난수 생성하는 식
+        // int num6 = random.nextInt(bound : (max - min + 1) -min)
+        int num6 = random.nextInt(60 - (-45) +1 + (-45));
+        System.out.printf("%d %d %d %d %d %d",num1,num2,num3,num4,num5,num6);
     }
 }
