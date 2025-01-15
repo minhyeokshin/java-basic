@@ -17,6 +17,7 @@ public class Main_126 {
             if (num == 0){
                 System.out.println("odd : " + odd);
                 System.out.println("even : " + even);
+                break;
             }
             else if(num%2 == 0){
                 even++;

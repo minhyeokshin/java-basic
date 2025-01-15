@@ -10,30 +10,18 @@ public class Main_135 {
         int num1 = in.nextInt();
         int num2 = in.nextInt();
         int sum = 0;
-        double avg = 0;
         int count = 0;
+        double avg = 0;
+        int max = Math.max(num1, num2);
+        int min = Math.min(num1, num2);
 
-        if (num1 > num2) {
-            for (int i = num2; i <= num1; i++) {
-                if (i % 3 == 0 || i % 5 == 0) {
-                    count++;
-                    sum += i;
-                }
+        for (int i = min; i <= max; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                count++;
+                sum += i;
             }
-            } else{
-                for (int i = num1; i <= num2; i++) {
-                    if (i % 3 == 0 || i % 5 == 0) {
-                        count++;
-                        sum += i;
-                    }
-                }
-            }
-
-            System.out.printf("sum : %d%n", sum);
-
-            avg = (double) sum / count;
-
-            System.out.printf("avg : %.1f", avg);
         }
-    }
-
+                System.out.printf("sum : %d%n", sum);
+                avg = (double) sum / count;
+                System.out.printf("avg : %.1f", avg);}
+        }
