@@ -83,7 +83,7 @@ public class Daas {
 //            System.out.println(intArray[index]);
 //
 //        }
- int[] array1;   //정수형 배열 변수 array1 선언
+// int[] array1;   //정수형 배열 변수 array1 선언
 //        int[] array2;
 //        int[] array3;
 //
@@ -120,7 +120,8 @@ public class Daas {
 //            System.out.println(intArray[index]);
 //
 //        }
- int[] array1;   //정수형 배열 변수 array1 선언
+//
+//        int[] array1;   //정수형 배열 변수 array1 선언
 //        int[] array2;
 //        int[] array3;
 //
