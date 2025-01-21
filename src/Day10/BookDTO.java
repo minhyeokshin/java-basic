@@ -7,10 +7,10 @@ public class BookDTO {
     int price;
     //출판사
     String company;
-    //
-    String gener;
-    //러닝타임
-    String runningTime;
-    //등급
-    String grade;
+    //작가
+    String author;
+    //페이지
+    int page;
+    //isbn 넘버
+    String isbn;
 }
