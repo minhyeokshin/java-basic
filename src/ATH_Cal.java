@@ -7,7 +7,7 @@ public class ATH_Cal {
         System.out.println("구매 갯수 입력");
         int num = in.nextInt();
         System.out.println("ATH 가격입력");
-        double ATHprice = 0.06;
+        double ATHprice = 0.06129;
 
 
         double sum = (double) num * ((2112*ATHprice)+950);
