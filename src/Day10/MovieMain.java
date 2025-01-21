@@ -42,8 +42,17 @@ public class MovieMain {
         System.out.println(movie2.actor);
         System.out.println(movie2.gener +" " + movie2.grade + "," + movie2.runningTime);
         System.out.println("개봉:" + movie2.startDate);
+        System.out.println();
+        System.out.println();
 
         //영화정보를 출력할때 마다 반복적인 문장의 묶음,PringMovie 메서드로 리팩토링하세요
+        movie1.moviePrint(movie1);
+        movie2.moviePrint(movie2);
+        //영화정보를 받는 inputMovie 메서드를 생성하세요.
+        InputMovieSc movieSc = new InputMovieSc();
+        MovieDTO movie3 = new MovieDTO();
+        movieSc.inputObject(movie3);
+        movie3.moviePrint(movie3);
     }
 
 
