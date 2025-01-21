@@ -1,7 +1,4 @@
-import jdk.dynalink.beans.StaticClass;
 
-import java.awt.event.ItemEvent;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Welcome {
@@ -145,7 +142,11 @@ public class Welcome {
             return;
         }
 
-        System.out.printf("삭제할 항목 번호를 입력하세요 (1~%d): ", ItemCount);
+
+        for (int k = 0;k<ItemCount;k++){
+            System.out.println(item[k]);
+        }
+        System.out.printf("삭제할 항목 번호를 입력하세요 (1행~%d행): ", ItemCount);
         int num = in.nextInt();
 
         if (num < 1 || num > ItemCount) {
