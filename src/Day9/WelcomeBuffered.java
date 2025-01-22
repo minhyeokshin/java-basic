@@ -210,11 +210,11 @@ public class WelcomeBuffered {
         bw.flush();
         int i = 0;
         for (i = 0;i<ItemCount;i++){
-            bw.write(item[i] + " 00개  00원   ");
+            bw.write(item[i] + " [00]개  [00]원   ");
             bw.write("\n");
             bw.flush();
         }
-        System.out.printf("총 구매 품목은 [%d]개이며 금액은 00원 입니다.%n",i);
+        System.out.printf("총 구매 품목은 [%d]개이며 금액은 [00]원 입니다.%n",i);
     }
     public static void menuExit() throws IOException{
         bw.write("8. 종료\n");
