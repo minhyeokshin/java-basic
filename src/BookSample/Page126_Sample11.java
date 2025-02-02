@@ -1,6 +1,6 @@
 package BookSample;
 
-public class Pag3126_Sample11 {
+public class Page126_Sample11 {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 4;
